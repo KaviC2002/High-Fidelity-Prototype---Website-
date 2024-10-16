@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080, initial-scale=1">
+    <title>Freecycling!</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <div id="about-container">
+            About
+        </div>
+        <div id="posts-container">
+            Posts
+        </div>
+        <div id="logo-container">
+            <img id="logo" src="freecycle_logo.png" alt="FreeCycle Logo">
+        </div>
+        <div id="news-container">
+            News
+        </div>
+        <div id="town-container">
+            Find a Town
+        </div>
+    </div>
+
+    <div id="search-container">
+        <img id="search" src="search_icon.png" alt="Search Button">
+    </div>
+    <div id="insta-container">
+        <img id="insta" src="insta_logo.png" alt="Instagram Button">
+    </div>
+    <div id="facebook-container">
+        <img id="facebook" src="facebook_logo.png" alt="Facebook Button">
+    </div>
+    
+
+    <div id="image-container">
+        <img src="image.jpeg" alt="image" id="image">
+        <img src="left-icon.png" alt="left" id="left">
+        <img src="right-icon.png" alt="right" id="right">
+    </div>
+    
+    <div class="register-container">
+        <button id="trigger-modal">Register</button>
+    </div>
+
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="form-title">Registration Form</h2>
+            <div class="box">
+            <div id ="form-ct"><form>
+                <h3 id="user-details">User Details</h3>
+                <div id="user-details">
+                    <label for="givenname">Given Name</label><br>
+                    <input type="text" id="givenname" name="givenname"><br>
+                    <label for="surname">Surname</label><br>
+                    <input type="text" id="surname" name="surname"><br>
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password"><br>
+                </div>
+                <h3 id="address-details">Addresses</h3>
+                <div id="address-details">
+                    <label for="home-address">Home Address</label><br>
+                    <input type="text" id="home-address" name="home-address"><br>
+                    <label for="work-address">Work Address</label><br>
+                    <input type="text" id="work-address" name="work-address"><br>
+                </div>
+                <h3 id="contact-details">Contacts</h3>
+                <div id="contact-details">
+                    <label for="mobile-number">Mobile Number</label><br>
+                    <input type="text" id="mobile-number" name="mobile-number"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"><br>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="description">
+        <div id="description1" class="box" id="description1">
+            <h1 id="home">Welcome to The Freecycle Network</h1>
+            <p>We are a grassroots & entirely nonprofit movement of
+                people who are giving and getting stuff for free in 
+                their own Towns. It's all about reuse and keeping good 
+                stuff out of landfills. Membership is free. And now you can 
+                also set up your own, smaller personal Friends Circle 
+                for gifting and lending of items with just your friends!
+            </p>
+        </div>
+        <div id="description2" class="box" id="description2">
+            <h1 id="home">Changing the World One Gift At a Time</h1>
+            <p>Our mission is to build a worldwide sharing movement 
+                that reduces waste, saves precious resources & eases 
+                the burden on our landfills while enabling our members to
+                benefit from the strength of a larger community.
+            </p>
+        </div>
+    </div>
+
+    <script
+        src="script.js">
+    </script>
+</body>
+
+</html>
